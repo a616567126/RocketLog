@@ -1,0 +1,29 @@
+# Build artifacts
+.build/
+.swiftpm/
+DerivedData/
+*.app/
+*.dSYM/
+*.zip
+*.dmg
+
+# Local files and logs
+.DS_Store
+.env
+.env.*
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Signing material
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# Local IDE state
+.idea/
+.vscode/
